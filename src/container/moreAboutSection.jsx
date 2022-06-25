@@ -74,11 +74,11 @@ export function MoreAboutSection(props) {
          smile to my client's face because .A good photographer is blessed with very special sense of good timing.
          <Marginer direction="vertical" margin="1rem" />
 <h4>We take snapshots to preserve your memories.</h4>
-         <Button>  <img src={Tel} height='26' />  + 92 (345) 1521767 </Button>
+         <Button>  <img src={Tel} height='26'alt='' />  + 92 (345) 1521767 </Button>
          
         </AboutText>
         <Divimage>
-        <AboutImg src={Aqsa} alt=""/>
+        <AboutImg src={Aqsa} alt=''/>
         </Divimage>
         
       </AboutContainer>
