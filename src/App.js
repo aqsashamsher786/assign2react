@@ -4,8 +4,6 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {Birthday} from './container/sectionTitle/event';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -15,8 +13,6 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/Birthday' component={Birthday} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>
     </>
